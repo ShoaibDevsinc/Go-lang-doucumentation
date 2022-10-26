@@ -90,3 +90,95 @@ func main() {
 }
 
 ```
+### Variables  in GO Language
+***Variable declaration in GO.***
+```
+// Go program to illustrate
+// concept of variable
+package main
+
+import "fmt"
+
+func main() {
+
+// Variable declared and
+// initialized without the
+// explicit type
+var myvariable1 = 20
+var myvariable2 = "Hello World"
+var myvariable3 = 34.80
+
+// Display the value and the
+// type of the variables
+fmt.Printf("The value of myvariable1 is : %d\n",
+								myvariable1)
+									
+fmt.Printf("The type of myvariable1 is : %T\n",
+								myvariable1)
+	
+fmt.Printf("The value of myvariable2 is : %s\n",
+									myvariable2)
+										
+fmt.Printf("The type of myvariable2 is : %T\n",
+								myvariable2)
+	
+fmt.Printf("The value of myvariable3 is : %f\n",
+									myvariable3)
+										
+fmt.Printf("The type of myvariable3 is : %T\n",
+								myvariable3)
+	
+}
+
+```
+
+***Using short variable declaration:***
+```
+
+// Go program to illustrate
+// concept of variable
+package main
+import "fmt"
+
+func main() {
+
+// Using short variable declaration
+myvar1 := 39
+myvar2 := "Hello World"
+myvar3 := 34.67
+
+// Display the value and type of the variables
+fmt.Printf("The value of myvar1 is : %d\n", myvar1)
+fmt.Printf("The type of myvar1 is : %T\n", myvar1)
+
+fmt.Printf("\nThe value of myvar2 is : %s\n", myvar2)
+fmt.Printf("The type of myvar2 is : %T\n", myvar2)
+
+fmt.Printf("\nThe value of myvar3 is : %f\n", myvar3)
+fmt.Printf("The type of myvar3 is : %T\n", myvar3)
+}
+
+
+```
+
+***Constants- Go Language***
+
+```
+package main
+
+import "fmt"
+
+const PI = 3.14
+
+func main()
+{
+	const GFG = "Hello World"
+	fmt.Println("Hello", GFG)
+
+	fmt.Println("Happy", PI, "Day")
+
+	const Correct= true
+	fmt.Println("Go rules?", Correct)
+}
+
+```
