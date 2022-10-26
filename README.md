@@ -15,3 +15,4 @@ Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make
 9. The Go Standard Library.
 10. Debugging: the Go Playground.
 ## Go basics:
+1.<a href = "https://github.com/ShoaibDevsinc/Go-lang-doucumentation/blob/master/fundamentals.md">Fundamentals</a>
